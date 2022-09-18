@@ -210,6 +210,16 @@ main {
     }
 }
 
+@media (width: 375px) and (height: 667px) {
+    .container {
+        width: 80%;
+    }
+
+    body {
+        background-color: #00403F;
+    }
+}
+
 @media (min-width: 0px) and (max-width: 415px) {
     .container {
         flex-direction: column;
@@ -238,7 +248,7 @@ main {
     }
 
     main {
-        width: 75%;
+        width: 60%;
         height: 97%;
     }
 
@@ -302,4 +312,10 @@ main {
     }
 
 
+}
+
+@media (max-width: 920px) and (orientation: landscape) {
+    main {
+        height: 94%;
+    }
 }
