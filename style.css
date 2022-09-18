@@ -126,6 +126,12 @@ main {
     }
 }
 
+@media (width: 912px) {
+    main {
+        height: 34%;
+    }
+}
+
 @media (min-width: 664px) and (max-width: 886px) {
     .item>h1 {
         font-size: 1em;
