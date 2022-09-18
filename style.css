@@ -291,3 +291,15 @@ main {
 
     }
 }
+
+@media (width: 280px) {
+    .container {
+        height: 100%;
+    }
+
+    .item>.text-container>p {
+        margin-bottom: 0.3em;
+    }
+
+
+}
