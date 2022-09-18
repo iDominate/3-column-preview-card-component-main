@@ -3,8 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css">
@@ -18,9 +16,49 @@
 <body>
 
   <main>
-
+    <div class="container">
+      <div class="item first">
+        <img src="./images/icon-sedans.svg" alt="sedan">
+        <h1>Sedans</h1>
+        <div class="text-container">
+          <p> Choose a sedan for its</p>
+          <p> affordability and excellent</p>
+          <p> fuel economy. Ideal for</p>
+          <p> cruising in the city
+            or on</p>
+          <p> your next road trip.</p>
+        </div>
+        <button>learn more</button>
+      </div>
+      <div class="item second">
+        <img src="./images/icon-suvs.svg" alt="sedan">
+        <h1>SUVs</h1>
+        <div class="text-container">
+          <p>Take an SUV for its spacious</p>
+          <p> interior, power, and</p>
+          <p> versatility. Perfect for your</p>
+          <p> next family vacation
+            and</p>
+          <p> off-road adventures.</p>
+        </div>
+        <button>learn more</button>
+      </div>
+      <div class="item third">
+        <img src="./images/icon-luxury.svg" alt="sedan">
+        <h1>Luxury</h1>
+        <div class="text-container">
+          <p>Cruise in the best car brands</p>
+          <p> without the bloated prices.</p>
+          <p> Enjoy the enhanced comfort</p>
+          <p> of a luxury
+            rental and arrive</p>
+          <p> in style.</p>
+        </div>
+        <button>learn more</button>
+      </div>
+    </div>
   </main>
-  <div class="container">
+  <!-- <div class="container">
     <div class="row text-center text-sm-center">
       <div class="col-lg-4 col-md-6 col-sm-12 text-start m-x-auto">
         <div class="item first">
@@ -51,7 +89,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Sedans
 
   <div class="attribution">
@@ -83,6 +121,8 @@
         color: 'teal'
       });
     });
+
+
     $('.third-btn').hover(function () {
       $(this).css({
         backgroundColor: 'transparent',
